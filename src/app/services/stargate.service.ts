@@ -6,10 +6,8 @@ import { AstronautDutyResponse } from '../models/astronaut-duty.model';
 
 @Injectable({ providedIn: 'root' })
 export class StargateService {
-  // TODO: change to your Swagger base URL (copy it exactly)
-private readonly baseUrl = 'http://localhost:7204';
 
-
+    private readonly baseUrl = 'http://localhost:7204';
 
   constructor(private http: HttpClient) {}
 
