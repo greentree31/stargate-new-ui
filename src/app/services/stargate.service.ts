@@ -7,7 +7,7 @@ import { AstronautDutyResponse } from '../models/astronaut-duty.model';
 @Injectable({ providedIn: 'root' })
 export class StargateService {
 
-    private readonly baseUrl = 'http://localhost:7204';
+    private readonly baseUrl = 'https://localhost:7204';
 
   constructor(private http: HttpClient) {}
 
