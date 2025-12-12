@@ -1,6 +1,6 @@
 # <Stargate Mockup>
 
-![A picture of the interface.](./assets/images/screenshot.png)
+![A picture of the interface.](./src/assets/images/screenshot.png)
 
 
 https://greentree31.github.io/stargate-new-ui/
